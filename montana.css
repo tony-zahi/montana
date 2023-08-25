@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@400;500;600&family=Josefin+Sans:ital@1&family=Permanent+Marker&family=Raleway:ital,wght@0,300;1,600&family=Roboto+Condensed:ital,wght@1,300&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.montana-header{
+    background-image: url("images/le7/task/img/banner-del/banner2.png");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.main-heading{
+    letter-spacing: 5px;
+    position: absolute;
+    font-size: 3rem;
+    top: 15rem;
+    left: 28%;
+    color: white;
+    
+}
+
+.description{
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 36%;
+    top: 50%;
+}
+
+
+header nav ul{
+    display: flex;
+    height: 30%;
+    width: 35%;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+header nav ul li a{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px ;
+    position: absolute;
+}
+
+.the-one{
+    border-bottom: 1px solid;
+}
+
+.main-links:hover{
+    color: rgb(24, 184, 247);
+    border-bottom: solid;
+}
+
+.logo{
+   position: absolute;
+   margin-top: 15px;
+   left: 45.7%;
+}
+
+.book-room a{
+    background-color: rgb(63, 145, 223);
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    width: 145px;
+    position: absolute;
+    top: 1.3rem;
+    left: 85rem;
+}
+
+.book-room a:hover{
+    background-color: white;
+    color: rgb(41, 68, 218);
+    outline: 2px solid rgb(63, 145, 223);
+    font: 2rem;
+}
+
+.a7a{
+    width: 100%;
+    height: 400px;
+    margin-top:150px;
+}
+
+.first-content{
+    width: 200px;
+    font-size: 1.5rem;
+    margin-left: 9rem;
+    line-height: 3rem;
+    /* position: absolute; */
+    /* top: 50rem; */
+}
+
+.first-content .span{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+}
+
+.first-content h2{
+    width: 400px;
+    letter-spacing: 7px;
+    line-height: 4rem;
+    margin-top: rem;
+    margin-bottom: 20px;
+}
+
+.learn-more{
+    color: #333;
+}
+
+.first-content{
+    width: 34%;
+    margin-top: 50px;
+    float: left;
+    margin-right: 100px;
+}
+
+.first-image{
+    float: left;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.second-image{
+    float: left;
+    margin-top: 150px;
+}
+
+.first-image, .second-image{
+    margin-top: px;
+}
+
+.extra{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 350px;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+.extra p{
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+}
+
+.extra h2{
+    font-size: 3rem;
+}
+
+/* (100% / 3) / 60px  */
+
+.second-content{
+    margin: 20px;
+}
+
+.first-part{
+    float: left;
+    margin: 20px;
+}
+
+.second-part{
+    float: left;
+    margin: 20px;
+}
+
+.third-part{
+    float: left;
+    margin: 20px
+}
+
+.first-part, .second-part, .third-part{
+    margin-left: 90px;
+}
+
+.first-part p, .second-part p, .third-part p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.first-part ul, .second-part ul, .third-part ul{
+    width: 300px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.first-part a, .second-part a, .third-part a{
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(24, 184, 247);
+    border: 2px solid rgb(24, 184, 247);
+    background-color: white;
+}
+
+.first-part a:hover, .second-part a:hover, .third-part a:hover{
+    background-color: rgb(24, 184, 247);
+    color: whitesmoke;
+}
+
+.third-content{
+    background-image: url("images/le7/task/img/video/video.png");
+    background-size: cover;
+    width: 100%;
+    margin-top: 150px;
+    display: inline-block;
+    height: 800px;
+    text-align: center;   
+    color: white;
+}
+
+.third-content div{
+    margin-top: 23%;
+    font-size: 2rem;
+}
+
+.third-content .images{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 149rem;
+}
+
+.fourth-content article{
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+   margin: 8rem 0;
+   margin-right: 18rem;
+   float: right;
+   width: 400px;
+}
+
+.fourth-content p{
+    margin-top: 30px;
+    width: 600px;
+}
+
+.fourth-content h2{
+    line-height: 3.5rem;
+    width: 500px;
+}
+
+.fourth-content .images{
+    float: left;
+}
+
+.fourth-content .blue-text{
+    font-size: 1rem;
+    color: rgb(0, 132, 255);
+    margin-bottom: 1.5rem;
+}
+
+.fourth-content .images {
+    margin-top: 11rem;
+    margin-left: 10rem;
+}
+
+.fourth-content .images .salad{
+    margin-bottom: 3.5rem;
+    margin-right: 8px;
+}
+
+.fourth-content article .learn-more{
+    width: 200px;
+    margin-top: 200rem;
+    color: #333;
+    text-decoration: none;
+    border-bottom: #333 solid 1px;
+    pad: 10px;
+}
+
+.fifth-content article{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    letter-spacing: 2px;
+    line-height: 80px;    
+}
+
+.fifth-content article h2{
+     font-size: 3rem;
+}
+
+.fifth-content article p{
+    color: rgb(0, 4, 255);
+}
+
+.fifth-content .images{
+    color: white;
+}
+
+.fifth-content .images .black{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    height: 500px;
+    padding-top: 370px;
+    padding-left: 60px;
+}
+
+.fifth-content .images .first-room {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-image: url("images/le7/task/img/rooms/1.png");
+    background-size: cover;
+}
+
+.fifth-content .images p{
+    padding-bottom: 20px;
+}
+
+.fifth-content .images h2{
+    font-size: 2rem;
+}
+
+.fifth-content .images .second-room{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-image: url("images/le7/task/img/rooms/2.png");
+    background-size: cover;
+}
+
+.fifth-content .images .third-room{
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-image: url("images/le7/task/img/rooms/3.png");
+    background-size: cover;
+}
+
+.fifth-content .images .fourth-room{
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-image: url("images/le7/task/img/rooms/4.png");
+    background-size: cover;
+}
+
+.sixth-content{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.5rem;
+    border: solid 1px #333;
+    margin: 150px 150px;
+    padding: 50px 50px;
+}
+
+.sixth-content a{
+    display: inline-block;
+    background-color: rgb(24, 184, 247);
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 250px;
+    width: 400px;
+    color: white;
+}
+
+.sixth-content a:hover, .sixth-content:focus{
+    background-color: white;
+    border: 2px solid rgb(24, 184, 247);
+    color: rgb(24, 184, 247);
+}
+
+footer .images img{
+    width: calc(100% / 5);
+    margin-top: 45px;
+    float: left;
+}
+
+footer .footer{
+    
+    height: 600px;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+}
+
+footer .last-thing{
+    
+    height: 550px;
+    display: inline-block;
+    color: white;
+    margin-left: 135px;
+    border-bottom: 1px white solid;
+}
+
+footer .last-thing div{
+    float: left;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+footer .last-thing h2{
+    padding-bottom: 50px;
+}
+
+footer .last-thing a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 30px;
+}
+
+footer .last-thing .address a{
+    border-bottom: 1px white solid;
+    padding-bottom: 5px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+footer .last-thing input{
+    text-transform: none;
+    height: 50px;
+    width: 250px;
+}
+
+footer .last-thing .sign-up{
+    color: white;
+    background-color: rgb(24, 184, 247);
+    width: 100px;
+}
+
+footer .last-thing .sign-up:hover, footer .last-thing .sign-up:focus{
+    border: 2px solid rgb(24, 184, 247);
+    background-color: white;
+    color: rgb(24, 184, 247);
+}
+
+footer .footer .copyright{
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 25px;
+    margin-left: 135px;
+}
+
+footer .footer .copyright a{
+    color: rgb(24, 184, 247);
+    text-decoration: none;
+}
+
+footer .footer .copyright a:hover, footer .footer .copyright a:focus{
+    text-decoration: underline; 
+}
+ 
+footer .footer .small{
+    text-transform: none;
+}
